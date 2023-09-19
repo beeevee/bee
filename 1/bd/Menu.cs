@@ -74,5 +74,10 @@ namespace bd
         {
             ShowStreamers(3);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShowStreamers(4);
+        }
     }
 }
