@@ -66,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Avtor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avtor.Designer.cs">
+      <DependentUpon>Avtor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Str.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Avtor.resx">
+      <DependentUpon>Avtor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Str.resx">
       <DependentUpon>Str.cs</DependentUpon>
     </EmbeddedResource>

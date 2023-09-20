@@ -16,7 +16,7 @@ namespace bd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Avtor());
         }
     }
     static class Database
@@ -36,5 +36,13 @@ namespace bd
         public static string ID = "ID";
         public static string Foto1 = "Foto1";
         public static string Foto2 = "Foto2";
+    }
+    static class User_table
+    {
+        public static string main = "User";
+        public static string ID = "ID";
+        public static string Name = "Name";
+        public static string Pass = "Pass";
+
     }
 }
